@@ -100,17 +100,20 @@
     <framework src="SystemConfiguration.framework" weak="true" />
     <framework src="libz.tbd" weak="true" />
     <framework src="libz.dylib" weak="true" />
+    <framework src="GoogleSignIn" spec="~> 5.0.2" type="podspec" embed="true" />
+    <framework src="GoogleUtilities" spec="~> 6.6" type="podspec" embed="true" />
+    <!-- <framework src="GoogleCloudMessaging" type="podspec" spec="~> 1.2.0" /> -->
 
-    <!-- Google frameworks -->
+    <!-- Google frameworks 
     <podspec>
       <config>
         <source url="https://cdn.cocoapods.org/"/>
-      </config>
+      </config>      
       <pods use-frameworks="true">
         <pod name="GoogleSignIn" spec="~> 5.0.2"/>
         <pod name="GoogleUtilities" spec="~> 6.6"/>
       </pods>
-    </podspec>
+    </podspec>-->
 
 		<hook type="after_plugin_install" src="hooks/ios/prerequisites.js"/>
   </platform>
