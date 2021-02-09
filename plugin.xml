@@ -114,8 +114,7 @@
         <pod name="GoogleUtilities" spec="~> 6.6"/>
       </pods>
     </podspec>-->
-
-		<hook type="after_plugin_install" src="hooks/ios/prerequisites.js"/>
+    
   </platform>
 
   <!-- browser -->

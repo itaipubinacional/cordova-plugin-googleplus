@@ -25,13 +25,11 @@
     "android",
     "ios"
   ],
-  "dependencies": {
-    "q": "*"
-  },
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.5.0"
-    }
-  ]
+  "cordova": {
+    "id": "com.os.mobile.blinkid",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
 }
