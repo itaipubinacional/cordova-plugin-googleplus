@@ -66,6 +66,7 @@
 
     <preference name="REVERSED_CLIENT_ID" />
 
+    <!--
     <config-file target="*-Info.plist" parent="CFBundleURLTypes">
       <array>
         <dict>
@@ -80,6 +81,7 @@
         </dict>
       </array>
     </config-file>
+    -->
 
     <config-file parent="keychain-access-groups" target="*/Entitlements-Debug.plist">
       <array>
